@@ -26,13 +26,7 @@ export default function Contact() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setStatus("sending");
-    await new Promise(r => setTimeout(r, 1800));
-    setStatus("sent");
-    setTimeout(() => {
-      setStatus("idle");
-      setForm({ name: "", email: "", subject: "", message: "" });
-    }, 4000);
+    alert("Sorry, the contact form is currently under maintenance. Please email me directly at aashishtejwani.connect@gmail.com. Thank you!");
   };
 
   return (

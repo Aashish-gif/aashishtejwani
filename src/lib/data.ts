@@ -312,13 +312,24 @@ export const certificates = [
 export const hackathons = [
   {
     id: "h1",
-    name: "CGPA++ Hackathon",
+    name: "IIIT Surat - CGPA++",
     position: "Winner 🥇 (1st Among 2nd Year)",
     date: "March 2026",
     description: "Cleared 4 intense rounds; secured 1st rank among all 2nd-year participants at IIIT Surat.",
     certificate: "https://drive.google.com/file/d/1HbOl1P_grH1Y_a3xRim7cj9m-w1a7zmE/view",
     photos: ["#"],
     location: "IIIT Surat",
+    projectLink: "#",
+  },
+  {
+    id: "h5",
+    name: "IIT Gandhinagar Hackathon",
+    position: "Participated (Top 100)",
+    date: "November 2025",
+    description: "Cleared virtual round in Top 100 teams among 5000+ participants nationwide.",
+    certificate: "https://drive.google.com/file/d/1RLYaHOZQWR86ehYx3s43DHk7PwCOByM8/view",
+    photos: ["#"],
+    location: "IIT Gandhinagar",
     projectLink: "#",
   },
   {
@@ -352,17 +363,6 @@ export const hackathons = [
     certificate: "https://drive.google.com/file/d/1MC61jiZiyJElXiJcBxV4HA47PiaQNnXw/view",
     photos: ["#"],
     location: "Changa, Gujarat",
-    projectLink: "#",
-  },
-  {
-    id: "h5",
-    name: "IIT Gandhinagar Hackathon",
-    position: "Participated (Top 100)",
-    date: "November 2025",
-    description: "Cleared virtual round in Top 100 teams among 5000+ participants nationwide.",
-    certificate: "https://drive.google.com/file/d/1RLYaHOZQWR86ehYx3s43DHk7PwCOByM8/view",
-    photos: ["#"],
-    location: "IIT Gandhinagar",
     projectLink: "#",
   },
   {
