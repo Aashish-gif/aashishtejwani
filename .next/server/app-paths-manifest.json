@@ -1,3 +1,4 @@
 {
+  "/hackathons/page": "app/hackathons/page.js",
   "/page": "app/page.js"
 }

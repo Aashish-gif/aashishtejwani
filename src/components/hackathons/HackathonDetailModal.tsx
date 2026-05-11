@@ -213,15 +213,22 @@ export default function HackathonDetailModal({ open, item, rankIndex, onClose }:
                 </motion.p>
 
                 <motion.div variants={itemVariants} className="flex flex-col sm:flex-row flex-wrap gap-3 mb-2">
-                  <a
-                    href={item.certificate}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-2xl bg-secondary text-white font-display font-bold tracking-widest text-xs uppercase hover:scale-[1.02] transition-transform shadow-lg shadow-secondary/25"
-                  >
-                    <Award className="w-4 h-4" />
-                    Verify certificate
-                  </a>
+                  {item.certificate && item.certificate !== "Not released yet" ? (
+                    <a
+                      href={item.certificate}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-2xl bg-secondary text-white font-display font-bold tracking-widest text-xs uppercase hover:scale-[1.02] transition-transform shadow-lg shadow-secondary/25"
+                    >
+                      <Award className="w-4 h-4" />
+                      Verify certificate
+                    </a>
+                  ) : (
+                    <div className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-2xl bg-slate-800 text-slate-500 font-display font-bold tracking-widest text-xs uppercase cursor-not-allowed">
+                      <Award className="w-4 h-4" />
+                      Not released yet
+                    </div>
+                  )}
                   {item.projectLink && item.projectLink !== "#" && (
                     <a
                       href={item.projectLink}

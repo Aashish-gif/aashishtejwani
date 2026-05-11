@@ -31,7 +31,7 @@ export default function Hackathons() {
   const selected = hackathons.find((h) => h.id === selectedId) ?? null;
   const rankIndex = selected ? hackathons.findIndex((h) => h.id === selected.id) : 0;
 
-  const [hero, ...rest] = hackathons;
+  const [hero, ...rest] = hackathons.slice(0, 3);
   const stats = useMemo(() => {
     const placements = hackathons.filter((h) =>
       /winner|runner|finalist|place/i.test(h.position)
