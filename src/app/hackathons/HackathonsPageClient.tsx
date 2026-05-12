@@ -43,7 +43,7 @@ export default function HackathonsPageClient() {
           className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-slate-500 hover:text-white transition-colors mb-10 sm:mb-12 group"
         >
           <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-          Back to Portfolio
+          Back to Home
         </SmoothLink>
 
         <div className="max-w-4xl mb-12 sm:mb-16">

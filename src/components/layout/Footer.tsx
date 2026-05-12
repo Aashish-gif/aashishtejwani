@@ -6,10 +6,10 @@ import { useRef } from "react";
 import { Github, Linkedin, Twitter, Mail, ArrowUp } from "lucide-react";
 
 const socials = [
-  { icon: Github, href: "https://github.com/", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com/", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com/", label: "Twitter" },
-  { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+  { icon: Github, href: "https://github.com/Aashish-gif", label: "GitHub" },
+  { icon: Linkedin, href: "https://linkedin.com/in/aashish-tejwani", label: "LinkedIn" },
+  { icon: Twitter, href: "https://x.com/AashishTejwani_", label: "Twitter" },
+  { icon: Mail, href: "mailto:aashishtejwani.connect@gmail.com", label: "Email" },
 ];
 
 export default function Footer() {

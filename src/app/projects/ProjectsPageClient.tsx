@@ -30,8 +30,8 @@ export default function ProjectsPageClient() {
 
       <div className="container-custom relative z-10">
         <SmoothLink href="/" className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-slate-500 hover:text-white transition-colors mb-12 group">
-          <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-          Back to Portfolio
+          <ArrowRight className="w-4 h-4 group-hover:-translate-x-1 transition-transform rotate-180" />
+          Back to Home
         </SmoothLink>
 
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-16">
