@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import { Award, ExternalLink, ShieldCheck, ArrowLeft, Search, Filter } from "lucide-react";
+import { Award, ExternalLink, ShieldCheck, ArrowRight, Search, Filter } from "lucide-react";
 import { SmoothLink } from "@/components/ui/SmoothNavigation";
 import { certificates } from "@/lib/data";
 
